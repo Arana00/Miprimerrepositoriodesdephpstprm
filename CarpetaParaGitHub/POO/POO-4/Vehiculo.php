@@ -19,6 +19,7 @@ class Vehiculo
 
     }
 
+
     //Funciones o métodos
     function setMarca($miMarca){
         $this->marca = $miMarca;

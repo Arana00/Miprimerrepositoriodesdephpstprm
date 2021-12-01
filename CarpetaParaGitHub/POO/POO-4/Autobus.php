@@ -14,6 +14,7 @@ class Autobus extends Vehiculo
         $this->propietario = $miPropietario;
         $this->empresa = $miEmpresa;
 
+
     }
 
     //Funciones o métodos

@@ -21,6 +21,7 @@ $coche = new Coche("Toyota","Corolla","verde","Marcos");
 <div>
     ¿Puedo aparcar el coche en el subterráneo 2?:
     <strong><?php echo ($coche->puedeAparcar("subterraneo2")) ? "si" : "no" ?></strong>
+
 </div>
 <div>
     ¿Puedo aparcar la furgoneta en la superficie?:
