@@ -16,7 +16,7 @@
     }
 </style>
 
-<h1>Ejemplo 5: Listado de coches</h1>
+<h1>Ejemplo 6: Vista de coche</h1>
 <table>
     <tr>
         <th>Marca</th>
@@ -24,18 +24,14 @@
         <th>Color</th>
         <th>Propietario</th>
     </tr>
-    <?php foreach ($rowset as $row): ?>
 
-        <tr>
-            <td><?php echo $row->marca ?></td>
-            <td><?php echo $row->modelo ?></td>
-            <td><?php echo $row->color ?></td>
-            <td><?php echo $row->propietario ?></td>
-        </tr>
-
-    <?php endforeach; ?>
+    <tr>
+        <td><?php echo $row->marca ?></td>
+        <td><?php echo $row->modelo ?></td>
+        <td><?php echo $row->color ?></td>
+        <td><?php echo $row->propietario ?></td>
+    </tr>
 </table>
-
 
 </body>
 </html>

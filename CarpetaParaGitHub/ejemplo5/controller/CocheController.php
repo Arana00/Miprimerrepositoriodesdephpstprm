@@ -24,5 +24,20 @@ class CocheController
         require("view/index.php");
 
     }
+    public function ver($id){
+
+        if (array_key_exists($id,$this->coches)){
+
+            //Si el elemento está en el array, lo muestro
+            $row = $this->coches[$id];
+            require("view/ver.php");
+        }
+        else{
+
+            //Llamo al método por defecto del controlador
+            $this->index();
+        }
+
+    }
 
 }
