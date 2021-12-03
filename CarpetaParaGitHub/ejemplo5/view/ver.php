@@ -1,10 +1,4 @@
-<!doctype html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
+
 <style>
     th{
         width: 8rem;
@@ -33,5 +27,3 @@
     </tr>
 </table>
 
-</body>
-</html>

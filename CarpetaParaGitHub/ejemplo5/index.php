@@ -8,7 +8,7 @@ require("./controller/CocheController.php");
 $controller = new CocheController;
 
 //Ruta de la home
-$home = "/formacion/poo/ejemplo6/index.php/";
+$home = "/CarpetaParaGitHub/ejemplo5/index.php/";
 
 //Quito la home de la ruta de la barra de direcciones
 $ruta = str_replace($home, "", $_SERVER["REQUEST_URI"]);
