@@ -27,7 +27,7 @@ function autoload($clase,$dir=null){
 $controller = new CocheController;
 
 //Ruta de la home
-$home = "/CarpetaParaGitHub/ejemplo6/index.php/";
+$home = "/CarpetaParaGitHub/POO/ejemplo6/index.php/";
 
 //Quito la home de la ruta de la barra de direcciones
 $ruta = str_replace($home, "", $_SERVER["REQUEST_URI"]);
