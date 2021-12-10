@@ -7,12 +7,12 @@
 $db = new PDO('mysql:host=localhost;dbname=prueba', 'usuario-prueba', '');
 
 
-/*Insert
-$registros = $db->exec('INSERT INTO personas (nombre) VALUES ("Ángel"),("Arana")');
-if ($registros){
-    echo "Se han activado $registros registros.";
-}*/
 
+$registros = $db->exec('INSERT INTO personas (nombre) VALUES ("Ángel"),("Arana")');
+if ($registros) {
+    echo "Se han activado $registros registros.";
+
+}
 
 //Select con OBJ
 $resultado = $db->query('SELECT * FROM personas');
