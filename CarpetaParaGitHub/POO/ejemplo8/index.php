@@ -26,6 +26,7 @@ function autoload($clase,$dir=null){
 }
 
 
+
 //Instancio el controlador
 $controller = new CocheController;
 
